@@ -1556,7 +1556,7 @@
   products:
     BacchusBlessing: 4
 
-  type: reaction
+- type: reaction
   id: TheLastCall
   requiredMixerCategories:
   - Shake
