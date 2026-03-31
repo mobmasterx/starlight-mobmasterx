@@ -1555,3 +1555,19 @@
       amount: 1
   products:
     BacchusBlessing: 4
+
+  type: reaction
+  id: TheLastCall
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    toxinsSpecial:
+      amount: 1
+    warlockvelvet:
+      amount: 1
+    vampiro:
+      amount: 2
+    jackrose:
+      amount: 2
+  products:
+    TheLastCall: 4

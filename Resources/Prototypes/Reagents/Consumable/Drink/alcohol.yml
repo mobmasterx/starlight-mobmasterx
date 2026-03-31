@@ -1841,6 +1841,31 @@
         reagent: Ethanol
         amount: 0.15
 
+
+- type: reagent
+  id: TheLastCall
+  name: reagent-name-the-last-call
+  parent: BaseAlcohol
+  desc: reagent-desc-the-last-call
+  physicalDesc: reagent-physical-desc-purple
+  flavor: thelastcall
+  color: "#3b0c66"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/tequillasunriseglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+
 - type: reagent
   id: TheMartinez
   name: reagent-name-the-martinez

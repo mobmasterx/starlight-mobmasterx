@@ -212,6 +212,9 @@ reagent-desc-manly-dorf = Beer and Ale, brought together in a delicious mix. Int
 reagent-name-margarita = margarita
 reagent-desc-margarita = On the rocks with salt on the rim. Arriba~!
 
+reagent-name-the-last-call = The Last Call
+reagent-desc-the-last-call = Ari's new drink!
+
 reagent-name-the-martinez = The Martinez
 reagent-desc-the-martinez = The edgerunner legend. Remembered by a drink, forgotten by a drunk.
 
