@@ -1561,13 +1561,13 @@
   requiredMixerCategories:
   - Shake
   reactants:
-    toxinsSpecial:
+    ToxinsSpecial:
       amount: 1
-    warlockvelvet:
+    PoisonWine:
       amount: 1
-    vampiro:
+    Vampiro:
       amount: 2
-    jackrose:
+    JackRose:
       amount: 2
   products:
     TheLastCall: 4
