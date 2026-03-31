@@ -1841,7 +1841,6 @@
         reagent: Ethanol
         amount: 0.15
 
-
 - type: reagent
   id: TheLastCall
   name: reagent-name-the-last-call
@@ -1864,7 +1863,6 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.15
-
 
 - type: reagent
   id: TheMartinez
