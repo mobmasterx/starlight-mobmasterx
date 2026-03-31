@@ -1847,7 +1847,7 @@
   name: reagent-name-the-last-call
   parent: BaseAlcohol
   desc: reagent-desc-the-last-call
-  physicalDesc: reagent-physical-desc-purple
+  physicalDesc: reagent-physical-desc-the-last-call
   flavor: thelastcall
   color: "#3b0c66"
   metamorphicSprite:
