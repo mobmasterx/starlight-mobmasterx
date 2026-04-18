@@ -2630,3 +2630,24 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.15
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: TheLastCall
+          min: 6
+        - !type:MetabolizerTypeCondition
+          type: [Animal]
+          inverted: true
+        damage:
+          types:
+            Poison: 0.04
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: TheLastCall
+          min: 6
+        - !type:MetabolizerTypeCondition
+          type: [Animal]
+        damage:
+          types:
+            Poison: 0.02 
