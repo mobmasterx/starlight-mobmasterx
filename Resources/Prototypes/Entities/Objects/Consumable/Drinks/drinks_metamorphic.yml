@@ -2603,9 +2603,6 @@
         reagents:
         - ReagentId: TheLastCall
           Quantity: 30
-  - type: Sprite
-    scale: 0.5, 0.5
-    sprite: Objects/Consumable/Drinks/glass_clear.rsi
   - type: Icon
     sprite: Objects/Consumable/Drinks/thelastcall.rsi
     state: icon
