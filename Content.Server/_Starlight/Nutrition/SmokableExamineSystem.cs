@@ -15,8 +15,6 @@ public sealed class SmokableExamineSystem : EntitySystem
     [Dependency] private readonly SharedSolutionContainerSystem _solutionContainerSystem = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
 
-    // A pipe keeps its packed smokable in this slot until it's lit, so the pipe's own
-    // solution reads empty even when there's something in the bowl to smoke.
     private const string PipeBowlSlot = "bowl_slot";
 
     public override void Initialize()
